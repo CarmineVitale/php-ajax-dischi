@@ -14,14 +14,14 @@ header {
 }
 
 .container {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     color: white;
     @include flex(row, center, center, wrap);
 }
 .album {
-    margin: 30px;
-    padding: 20px;
+    margin: 20px;
+    padding: 15px;
     background-color: black;
     @include flex(column, center, center, nowrap);
     .description {

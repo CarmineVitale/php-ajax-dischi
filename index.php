@@ -22,7 +22,7 @@ include_once __DIR__ . '/partial/template/data.php';
 <?php foreach ($cds as $cd) { ?>
         <div class="album">
             <div class="poster">
-                <?php echo $cd['poster'] ?>
+                <img src="<?php echo $cd['poster'] ?>" alt="">
             </div>
             <div class="description">
                 <div> <span class="title"><?php echo $cd['name'] ?></span>  </div>
