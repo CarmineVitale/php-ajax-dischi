@@ -11,7 +11,13 @@
 include_once __DIR__ . '/partial/template/data.php';
 
 ?>
-<h1>album</h1>
+<header>
+    <div class="logo">
+        <img src="dist/img/spotify-logo.png" alt="">
+        <h1>Spotify</h1>
+    </div>
+
+</header>
 <div class="container">
 <?php foreach ($cds as $cd) { ?>
         <div class="album">
@@ -19,9 +25,9 @@ include_once __DIR__ . '/partial/template/data.php';
                 <?php echo $cd['poster'] ?>
             </div>
             <div class="description">
-                <div class="title"> <?php echo $cd['name'] ?> </div>
-                <div class="author"> <?php echo $cd['author'] ?> </div>
-                <div class="year"> <?php echo $cd['year'] ?> </div>
+                <div> <span class="title"><?php echo $cd['name'] ?></span>  </div>
+                <div> <span class="author"><?php echo $cd['author'] ?></span> </div>
+                <div> <span class="year"><?php echo $cd['year'] ?></span>  </div>
             </div>
         </div>
 <?php } ?>

@@ -1,7 +1,3 @@
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    background: grey;
-    display: flex;
-    flex-wrap: wrap;
-}
+@import 'partials/common';
+@import 'partials/mixin';
+@import 'partials/content';

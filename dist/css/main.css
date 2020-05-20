@@ -1,7 +1,70 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  background: #222121;
+}
+
+header {
+  background-color: black;
+  color: white;
+  border-bottom: 3px solid white;
+  margin-bottom: 30px;
+  padding: 5px 20px;
+}
+header .logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+header img {
+  width: 50px;
+  margin-right: 25px;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
-  background: grey;
+  color: white;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
+}
+
+.album {
+  margin: 30px;
+  padding: 20px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.album .description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.title {
+  display: block;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.author {
+  color: lightgrey;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.year {
+  font-size: 12px;
 }
