@@ -43,3 +43,18 @@ header {
 .year {
     font-size: 12px;
 }
+.noresults {
+    
+        display: none;
+    
+    
+}
+.active {
+
+    display: block;
+    //@include flex(row, center, center, nowrap);
+    span {
+        color: white;
+        
+    }
+}

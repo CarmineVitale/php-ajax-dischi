@@ -12,12 +12,15 @@
         <img src="dist/img/spotify-logo.png" alt="">
         <h1>Spotify</h1>
     </div>
+    
     <div class="search">
         <input id="cerca" type="text" placeholder="Search">
     </div>
 
 </header>
 <div class="container"></div>
+
+
 <footer>
     <p>Made by Carmine Vitale &copy; - Boolean Student Class 12</p>
 </footer>

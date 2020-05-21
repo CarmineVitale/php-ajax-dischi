@@ -75,6 +75,17 @@ header img {
   font-size: 12px;
 }
 
+.noresults {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+.active span {
+  color: white;
+}
+
 footer {
   border-top: 3px solid white;
   background: black;
