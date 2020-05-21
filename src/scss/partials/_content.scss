@@ -16,6 +16,7 @@ header {
 
 .container {
     max-width: 1200px;
+    min-height: 100vh;
     margin: 0 auto;
     color: white;
     @include flex(row, center, center, wrap);

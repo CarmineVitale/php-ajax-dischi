@@ -13,7 +13,7 @@
         <h1>Spotify</h1>
     </div>
     <div class="search">
-        <input type="text" placeholder="Search">
+        <input id="cerca" type="text" placeholder="Search">
     </div>
 
 </header>
