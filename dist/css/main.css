@@ -11,6 +11,11 @@ header {
   border-bottom: 3px solid white;
   margin-bottom: 30px;
   padding: 5px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
 }
 header .logo {
   display: flex;
@@ -67,4 +72,18 @@ header img {
 
 .year {
   font-size: 12px;
+}
+
+footer {
+  border-top: 3px solid white;
+  background: black;
+  color: white;
+  height: 60px;
+  font-size: 13px;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
 }

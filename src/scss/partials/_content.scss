@@ -4,6 +4,7 @@ header {
     border-bottom: 3px solid white;
     margin-bottom: 30px;
     padding: 5px 20px;
+    @include flex(row, space-between, center, nowrap);
     .logo {
         @include flex(row, flex-start, center, nowrap);
     }

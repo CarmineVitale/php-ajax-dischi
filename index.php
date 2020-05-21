@@ -1,3 +1,5 @@
+<?php include_once __DIR__ . '/partial/template/data.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,10 +9,7 @@
     <link rel="stylesheet" href="dist/css/main.css">
 </head>
 <body>
-<?php 
-include_once __DIR__ . '/partial/template/data.php';
 
-?>
 <header>
     <div class="logo">
         <img src="dist/img/spotify-logo.png" alt="">
@@ -32,5 +31,8 @@ include_once __DIR__ . '/partial/template/data.php';
         </div>
 <?php } ?>
 </div>
+<footer>
+    <p>Made by Carmine Vitale &copy; - Boolean Student Class 12</p>
+</footer>
 </body>
 </html>
