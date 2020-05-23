@@ -28,6 +28,10 @@ header img {
   width: 50px;
   margin-right: 25px;
 }
+header .home .no-results .click {
+  cursor: pointer;
+  color: green;
+}
 
 .container {
   max-width: 1200px;

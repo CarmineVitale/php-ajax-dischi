@@ -109,11 +109,14 @@ $(document).ready(function () {
         url: 'http://localhost:8888/php-ajax-dischi/partial/template/json-script.php/',
         method: 'GET',
         success: function success(res) {
+          $(".no-results").html('Nessun Artista trovato <br> <span class="click">Torna alla Homepage </span> ');
+
           for (var i = 0; i < res.length; i++) {
             var self = res[i];
 
             if (self.author.toLowerCase() == valore) {
               container.html('');
+              $(".no-results").html('<span class="click">Torna alla Homepage </span>');
               var data = {
                 poster: self.poster,
                 titolo: self.name,
@@ -134,7 +137,7 @@ $(document).ready(function () {
     }
   }); //Ritorno alla homepgae iniziale con click su logo spotify
 
-  $('.logo img').click(function () {
+  $('.home .no-results').on('click', function () {
     container.html('');
     getData(template, container);
   });

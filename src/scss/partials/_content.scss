@@ -12,6 +12,14 @@ header {
         width: 50px;
         margin-right: 25px;
     }
+    .home {
+        .no-results {
+            .click {
+                cursor: pointer;
+                color: green;
+            }
+        }
+    }
 }
 
 .container {
